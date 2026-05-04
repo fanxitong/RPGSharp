@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="RPGSharp.Runtime/RPGSharp.Runtime.csproj" Id="886a4b82-a285-4114-b812-f0fd3dea47af" />
+  <Project Path="RPGSharp.Editor/RPGSharp.Editor.csproj" Id="036207b4-a8a6-4ccc-b46d-f1972c121938" />
+  <Project Path="RPGSharp.Editor.Uis/RPGSharp.Editor.Uis.csproj" Id="2085e3ad-2b5e-4999-b841-da506127bef0" />
+  <Project Path="RPGSharp.Impls/RPGSharp.Impls.csproj" Id="a962aa0a-34ba-4530-973f-3bd1cff6420f" />
+  <Project Path="RPGSharp.Specs/RPGSharp.Specs.csproj" Id="2ce343d7-6203-462c-8c42-50c6b0b7f375" />
+  <Project Path="RPGSharp.Repositories/RPGSharp.Repositories.csproj" Id="92849b2f-0731-426c-a4a2-606c49a181f0" />
+  <Project Path="RPGSharp.Entities/RPGSharp.Entities.csproj" Id="ed7c54f3-3c9b-43b4-b852-10408ba5e23c" />
+  <Project Path="RPGSharp.Bases/RPGSharp.Bases.csproj" Id="b036bcf3-6fac-4773-b2ea-469912ef7b34" />
+  <Project Path="RPGSharp.Test/RPGSharp.Test.csproj" Id="63a27e3f-95cd-470b-b2d5-1dad3e069bef" />
+</Solution>
