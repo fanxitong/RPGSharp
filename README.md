@@ -9,7 +9,7 @@
 
 ## 目前的功能及想法(不排除画饼嫌疑~)
 
-- 引擎构成:基于`Blazor`实现编辑器部分,并输出特定格式文件(可能包含如:JSON/XNB/数据库(sqlite3)或其他IR格式的集合体,参考unitypackage),`MonoGame`提供实现解析这些文件并运行游戏。*项目基于数据驱动。*
+- 引擎构成:基于`Blazor`实现编辑器部分,并输出特定格式文件(可能包含如:JSON/XNB/数据库文件或其他IR格式的集合体,参考unitypackage/压缩文件),`MonoGame`提供实现解析这些文件并运行游戏。*项目基于数据驱动。*
 - 模块组成:
 
 | 模块名 | 功能 | 备注 |
@@ -19,7 +19,7 @@
 | RPGSharp.Bases | 引擎基础支持 | |
 | RPGSharp.Entities | 引擎内部的所有实体 | |
 | RPGSharp.Repositories | 引擎数据库支持 | Sqlite3 & EFCore |
-| RPGSharp.Specs | 引擎内部所必要的抽象与抽象实现 | |
+| RPGSharp.Engine | 引擎内部所必要的抽象与抽象实现 | |
 | RPGSharp.Runtime.MonoGame | 基于 MonoGame 实现 | |
 | RPGSharp.Runtime.Mod | 游戏运行时模组支持 | (选择性实现) |
 | RPGSharp.Runtime | 运行时支持 | |
