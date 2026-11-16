@@ -1,1 +1,13 @@
-<Solution />
+<Solution>
+  <Project Path="src/RPGSharp.Editor.Plugins/RPGSharp.Editor.Plugins.csproj" Id="3d7e80ca-fef0-4118-a921-a8ac673ba3af" />
+  <Project Path="src/RPGSharp.Editor/RPGSharp.Editor.csproj" Id="a8dc7ec7-a6aa-48c1-8978-c42abbb212a6" />
+  <Project Path="src/RPGSharp.Engine/RPGSharp.Engine.csproj" Id="9b968c02-34df-4dfc-8347-9f8f38415941" />
+  <Project Path="src/RPGSharp.Runtime.MonoGame/RPGSharp.Runtime.MonoGame.csproj" Id="b67dfe93-29ce-4b05-bba9-b0f7cd55b424" />
+  <Project Path="src/RPGSharp.Runtime.Mods/RPGSharp.Runtime.Mods.csproj" Id="0bd40e21-b07d-4a2e-88c9-b5f5174fa83e" />
+  <Project Path="src/RPGSharp.Runtime/RPGSharp.Runtime.csproj" Id="674df063-d72a-426e-824d-b5cd108680c2" />
+  <Project Path="src/RPGSharp.Repositories/RPGSharp.Repositories.csproj" Id="8a5f5d4c-0324-4ed1-b45f-1de9a23094bc" />
+  <Project Path="src/RPGSharp.Entities/RPGSharp.Entities.csproj" Id="dcf444ef-d911-4738-a945-58e0830f3cbe" />
+  <Project Path="src/RPGSharp.Bases/RPGSharp.Bases.csproj" Id="c9f56a56-db7c-44fd-b538-ebe1b77e7286" />
+  <Project Path="src/RPGSharp.Standards/RPGSharp.Standards.csproj" Id="c01928bf-860f-40db-9034-73746f041757" />
+  <Project Path="src/RPGSharp.Test/RPGSharp.Test.csproj" Id="27ba1d2f-237d-4118-a053-924db97e36ad" />
+</Solution>

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net11.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ApplicationIcon>favicon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BootstrapBlazor" Version="11.1.0" />
+		<PackageReference Include="BootstrapBlazor.Chart" Version="11.0.0" />
+		<PackageReference Include="BootstrapBlazor.FontAwesome" Version="11.0.0" />
+		<PackageReference Include="Photino.Blazor" Version="4.0.13" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RPGSharp.Editor.Plugins\RPGSharp.Editor.Plugins.csproj" />
+		<ProjectReference Include="..\RPGSharp.Engine\RPGSharp.Engine.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Update="wwwroot\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="favicon.ico">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
+
